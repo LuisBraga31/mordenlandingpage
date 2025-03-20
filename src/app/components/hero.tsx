@@ -33,7 +33,8 @@ export function Hero() {
                         </p>
                         
                         <div className="flex">
-                            <a href="#" target="_blank" rel="noopener noreferrer"
+                            <a href={`https://wa.me/556799990000?text=Olá vim pelo site e gostaria de mais informações`} 
+                                target="_blank" rel="noopener noreferrer"
                                 className="bg-green-500 px-5 py-2 rounded-md font-semibold 
                                 flex items-center justify-center w-fit gap-2"
                             >
