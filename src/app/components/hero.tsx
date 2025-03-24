@@ -24,7 +24,7 @@ export function Hero() {
                 <article className='grid grid-cols-1 lg:grid-cols-2 gap-8 relative'>
 
                     <div className="space-y-6">
-                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10">
+                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10" data-aos="fade-down">
                             Seu pet merece cuidado, carinho e atenção especial.
                         </h1>
                         <p className="lg:text-lg">
@@ -37,6 +37,8 @@ export function Hero() {
                                 target="_blank" rel="noopener noreferrer"
                                 className="bg-green-500 px-5 py-2 rounded-md font-semibold 
                                 flex items-center justify-center w-fit gap-2"
+                                data-aos="fade-up"
+                                data-aos-delay="500"
                             >
                                 <WhatsappLogo className="w-5 h-5"/>
                                 Contato via WhatsApp
